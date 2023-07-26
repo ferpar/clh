@@ -1,0 +1,34 @@
+.site-header {
+    display: flex;
+    font-family: serif;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid
+      hsl(260deg 50% 50% / 0.1);
+  }
+  .site-header .logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 24px;
+    text-decoration: none;
+    margin-bottom: -1px;
+  }
+  .site-header nav {
+    overflow: auto;
+    padding: 24px;
+  }
+  .header-nav-links {
+    display: flex;
+    gap: 32px;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .site-header .header-nav-link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+  .site-header .header-nav-link.primary {
+    color: hsl(260deg 100% 50%);
+  }
