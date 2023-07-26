@@ -6,13 +6,13 @@ function Footer() {
       <nav>
         <ul className={styles['footer-nav-links']}>
             <li className={styles['footer-nav-link']}>
-                <a  href="/">Aviso Legal</a>
+                <a  href="/aviso-legal">Aviso Legal</a>
             </li>
             <li className={styles['footer-nav-link']}>
-                <a href="/cursos">Política de Privacidad</a>
+                <a href="/politica-de-privacidad">Política de Privacidad</a>
             </li>
             <li className={styles['footer-nav-link']}>
-                <a href="/equipo">Configuración de Cookies</a>
+                <a href="/configuracion-de-cookies">Configuración de Cookies</a>
             </li>
         </ul>
       </nav>
