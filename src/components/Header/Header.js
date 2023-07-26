@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from './Header.module.css'
+import {getString} from '../../helpers/i18n'
 
 function Header() {
   return (
@@ -10,13 +11,13 @@ function Header() {
       <nav>
         <ul className={styles['header-nav-links']}>
             <li className={styles['header-nav-link']}>
-                <Link  href="/">Inicio</Link>
+                <Link  href="/">{getString('HOME')}</Link>
             </li>
             <li className={styles['header-nav-link']}>
-                <Link href="/cursos">Cursos</Link>
+                <Link href="/cursos">{getString('COURSES')}</Link>
             </li>
             <li className={styles['header-nav-link']}>
-                <Link href="/equipo">Equipo</Link>
+                <Link href="/equipo">{getString('TEAM')}</Link>
             </li>
         </ul>
       </nav>
