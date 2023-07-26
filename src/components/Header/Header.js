@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import styles from './Header.module.css'
+
 function Header() {
   return (
     <header className={styles['site-header']}>
@@ -8,13 +10,13 @@ function Header() {
       <nav>
         <ul className={styles['header-nav-links']}>
             <li className={styles['header-nav-link']}>
-                <a  href="/">Inicio</a>
+                <Link  href="/">Inicio</Link>
             </li>
             <li className={styles['header-nav-link']}>
-                <a href="/cursos">Cursos</a>
+                <Link href="/cursos">Cursos</Link>
             </li>
             <li className={styles['header-nav-link']}>
-                <a href="/equipo">Equipo</a>
+                <Link href="/equipo">Equipo</Link>
             </li>
         </ul>
       </nav>

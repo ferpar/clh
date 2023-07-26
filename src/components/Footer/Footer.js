@@ -1,4 +1,5 @@
 import styles from './Footer.module.css';
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -6,13 +7,13 @@ function Footer() {
       <nav>
         <ul className={styles['footer-nav-links']}>
             <li className={styles['footer-nav-link']}>
-                <a  href="/aviso-legal">Aviso Legal</a>
+                <Link  href="/aviso-legal">Aviso Legal</Link>
             </li>
             <li className={styles['footer-nav-link']}>
-                <a href="/politica-de-privacidad">Política de Privacidad</a>
+                <Link href="/politica-de-privacidad">Política de Privacidad</Link>
             </li>
             <li className={styles['footer-nav-link']}>
-                <a href="/configuracion-de-cookies">Configuración de Cookies</a>
+                <Link href="/configuracion-de-cookies">Configuración de Cookies</Link>
             </li>
         </ul>
       </nav>
