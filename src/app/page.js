@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { getString } from "../helpers/i18n";
 
+import Hero from "../components/Hero";
+
 export const metadata = {
   title: "Inicio | Centro León Hebreo",
   description: "Bienvenid@ a la web del Centro León Hebreo",
@@ -10,17 +12,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main className={styles.main}>
-      <section className={styles["hero"]}>
-        <div>
-          <h3>{getString("TITLE")}
-          <br/>
-          <p className={styles["subtitle"]}>{getString("SUBTITLE")}</p>
-          </h3>
-          <p>{getString('WELCOME')}</p>
-          <br/>
-          <p>{getString("DESCRIPTION")}</p>
-        </div>
-      </section>
+      <Hero />
       <section className={styles["about"]}>
         <div>
           <h3>{getString("TITLE")}</h3>
