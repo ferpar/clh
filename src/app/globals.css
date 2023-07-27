@@ -1,5 +1,15 @@
 :root {
   --header-height: 80px;
+  --font-size-xs: calc(14/16 * 1rem);
+  --font-size-s: 1rem;
+  --font-size-m: calc(18/16 * 1rem);
+  --font-size-l: calc(22/16 * 1rem);
+  --font-size-xl: calc(32/16 * 1rem);
+  --font-size-xxl: calc(42/16 * 1rem);
+
+  /* Colors */
+  --og-header-bg: rgb(193, 184, 110);
+
 }
 /*
   1. Use a more-intuitive box-sizing model.
@@ -46,4 +56,26 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+p {
+  transition: font-size 0.2s ease-in-out;
+  font-size: var(--font-size-m);
+}
+
+h3 {
+  transition: font-size 0.2s ease-in-out;
+  font-size: var(--font-size-l);
+}
+
+@media (min-width: 1280px) {
+  h3 {
+    transition: font-size 0.2s ease-in-out;
+    font-size: var(--font-size-xl);
+  }
+
+  p {
+    transition: font-size 0.2s ease-in-out;
+    font-size: var(--font-size-l);
+  }
 }
