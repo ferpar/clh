@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { getString } from "../helpers/i18n";
 
 import Hero from "../components/Hero";
+import About from "../components/About";
 
 export const metadata = {
   title: "Inicio | Centro León Hebreo",
@@ -13,12 +14,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
-      <section className={styles["about"]}>
-        <div>
-          <h3>{getString("TITLE")}</h3>
-          <p>{getString("ABOUT")}</p>
-        </div>
-      </section>
+      <About />
       <section className={styles["highlighted"]}>
         <h3>{getString("LIGHTHOUSE")}</h3>
         <p>{getString("LIGHTHOUSE_DESCRIPTION")}</p>
