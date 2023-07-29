@@ -1,0 +1,20 @@
+.triptic {
+    background-color: black;
+    color: white;
+    padding: 60px 20px;
+}
+
+.triptic div {
+    padding: 1rem 0;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.triptic img {
+    padding: 1rem 0 2rem;
+    max-width: 160px;
+}
+
+.triptic div:last-child {
+    border-bottom: none;
+}

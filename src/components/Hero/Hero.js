@@ -13,7 +13,7 @@ export default function Hero() {
           <img src="/images/coin.webp" alt="hero" className={styles["hero-img"]} />
         </div>
         <div className={styles["overlay"]} />
-        <div className={styles["content"]}>
+        <div className={`${styles["content"]} max-width-wrapper`}>
           <h3>{title}
           <br/>
           <span className={styles["subtitle"]}>{subtitle}</span>

@@ -82,6 +82,10 @@ p {
   font-size: var(--font-size-m);
 }
 
+h2 {
+  font-size: var(--font-size-xl);   
+}
+
 h3 {
   transition: font-size 0.2s ease-in-out;
   font-size: var(--font-size-l);
@@ -97,4 +101,10 @@ h3 {
     transition: font-size 0.2s ease-in-out;
     font-size: var(--font-size-l);
   }
+}
+
+.max-width-wrapper {
+    margin: 0 auto;
+    max-width: 770px;
+    width: fit-content;
 }
