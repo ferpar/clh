@@ -1,6 +1,7 @@
 .main {
     isolation: isolate;
     position: relative;
+    height: 100%;
     text-align: center;
     font-size: var(--font-size-m);
 }

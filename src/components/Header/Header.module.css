@@ -8,6 +8,7 @@
   align-items: baseline;
   border-bottom: 1px solid hsl(260deg 50% 50% / 0.1);
   color: white;
+  transition: all 0.3s ease-in-out;
 }
 .site-header .logo {
   font-size: 1.5rem;
@@ -36,5 +37,6 @@
 }
 
 .scrolled {
-  background-color: black;
+  transition: all 0.3s ease-in-out;
+  background-color: hsl(53deg 40% 20% / 0.765);
 }
