@@ -31,7 +31,7 @@
 }
 
 .overlay {
-  background-color: hsl(53deg 40% 59% / 0.765);
+  background-color: hsl(53deg 40% 36% / 0.765);
   position: absolute;
   top: 0;
   right: 0;
@@ -41,5 +41,6 @@
 
 .content {
   position: relative;
-  color: hsl(240 74% 27% / 1);
+  /* color: hsl(240 74% 27% / 1); */
+  color: white;
 }

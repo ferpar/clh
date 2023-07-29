@@ -16,7 +16,7 @@ export default function Hero() {
         <div className={styles["content"]}>
           <h3>{title}
           <br/>
-          <h3 className={styles["subtitle"]}>{subtitle}</h3>
+          <span className={styles["subtitle"]}>{subtitle}</span>
           </h3>
           <p>{welcome}</p>
           <br/>
