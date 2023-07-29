@@ -2,21 +2,19 @@
   position: fixed;
   z-index: 1;
   width: 100%;
+}
+
+.wrapper {
+  width: 100%;
   display: flex;
   font-family: serif;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   border-bottom: 1px solid hsl(260deg 50% 50% / 0.1);
   color: white;
   transition: all 0.3s ease-in-out;
 }
-.site-header .logo {
-  font-size: 1.5rem;
-  font-weight: 500;
-  padding: 24px;
-  text-decoration: none;
-  margin-bottom: -1px;
-}
+
 .site-header nav {
   overflow: auto;
   padding: 24px;
@@ -39,4 +37,15 @@
 .scrolled {
   transition: all 0.3s ease-in-out;
   background-color: hsl(53deg 40% 20% / 0.765);
+}
+
+.logo {
+  transition: all 0.3s ease-in-out;
+  width: 90px;
+  padding: 10px 0px 10px 20px;
+}
+
+.logo-scrolled {
+  transition: all 0.3s ease-in-out;
+  width: 60px;
 }
