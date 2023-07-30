@@ -18,8 +18,8 @@
 }
 .site-footer .footer-nav-link {
   list-style: none;
-  text-decoration: none;
   color: black;
+  padding: 5px 0;
 }
 
 .site-footer .footer-nav-link.primary {
