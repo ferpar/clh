@@ -24,20 +24,21 @@
   font-size: 1.25rem;
   font-weight: 500;
 }
-.site-header .header-nav-link {
+.header-nav-link {
   list-style: none;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all ease-in-out 0.2s;
 }
 
-.site-header .header-nav-link:hover {
+.header-nav-link:hover {
   border-bottom: 2px solid white;
   transition: all ease-in-out 0.4s;
 }
 
-.site-header .header-nav-link.primary {
-  color: hsl(260deg 100% 50%);
+.header-nav-link.active {
+  border-bottom: 2px solid white;
+  transition: all ease-in-out 0.1s;
 }
 
 .scrolled {

@@ -4,8 +4,25 @@ import Link from "next/link";
 import styles from "./Header.module.css";
 import { getString } from "../../helpers/i18n";
 
+const headerLinks = [
+  {
+    name: "HOME",
+    path: "/",
+  },
+  {
+    name: "COURSES",
+    path: "/cursos",
+  },
+  {
+    name: "TEAM",
+    path: "/equipo",
+  },
+]
+
 function Header() {
   const [scrolled, setScrolled] = React.useState(null);
+  const [currentPath, setCurrentPath] = React.useState(null);
+
   const checkScroll = () => {
     if (window.scrollY > 0) {
       setScrolled(true);
@@ -13,35 +30,49 @@ function Header() {
       setScrolled(false);
     }
   };
+
+  const handlePathChange = (newURL) => {
+    console.log("newURL", newURL)
+    setCurrentPath(newURL);
+  };
+
   React.useEffect(() => {
     window.addEventListener("scroll", checkScroll);
     return () => {
       window.removeEventListener("scroll", checkScroll);
     };
   }, []);
+
+  React.useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+
   return (
-    <header
-      className={`${styles["site-header"]}`}
-    >
+    <header className={`${styles["site-header"]}`}>
       <div className={`${styles["wrapper"]} ${scrolled && styles["scrolled"]}`}>
         <a>
           <img
             src="/images/logo.webp"
             alt="CLH"
-            className={`${styles["logo"]} ${scrolled && styles["logo-scrolled"]}`}
+            className={`${styles["logo"]} ${
+              scrolled && styles["logo-scrolled"]
+            }`}
           />
         </a>
         <nav>
           <ul className={styles["header-nav-links"]}>
-            <li className={styles["header-nav-link"]}>
-              <Link href="/">{getString("HOME")}</Link>
-            </li>
-            <li className={styles["header-nav-link"]}>
-              <Link href="/cursos">{getString("COURSES")}</Link>
-            </li>
-            <li className={styles["header-nav-link"]}>
-              <Link href="/equipo">{getString("TEAM")}</Link>
-            </li>
+            {headerLinks.map((link) => (
+              <li
+                key={link.name}
+                className={`${styles["header-nav-link"]} ${
+                  currentPath === link.path ? styles["active"] : ""
+                }`}
+              >
+                <Link href={link.path} onClick={() => handlePathChange(link.path)}>
+                  {getString(link.name)}
+                </Link>
+                </li>
+            ))}
           </ul>
         </nav>
       </div>

@@ -78,13 +78,17 @@ html {
   font-family: var(--font-pt-serif), serif;
 }
 
-h2, h3 {
+h1, h2, h3 {
   font-family: var(--font-montserrat), sans-serif;
 }
 
 p {
   transition: font-size 0.2s ease-in-out;
   font-size: var(--font-size-m);
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
 }
 
 h2 {
