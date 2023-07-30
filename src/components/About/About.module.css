@@ -1,13 +1,16 @@
 .about {
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.wrapper {
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    padding: 2rem;
-    color: white;
-    text-align: start;
-    padding-bottom: 5rem;
 }
 
 .about-img {
@@ -25,7 +28,7 @@
 }
 
 @media (min-width: 1280px) {
-    .about {
+    .wrapper {
         flex-direction: row;
         justify-content: space-between;
         padding: 5rem;
