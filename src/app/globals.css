@@ -6,6 +6,7 @@
   --font-size-l: calc(22/16 * 1rem);
   --font-size-xl: calc(32/16 * 1rem);
   --font-size-xxl: calc(42/16 * 1rem);
+  --font-size-xxxl: calc(72/16 * 1rem);
 
   /* Colors */
   --og-header-bg: rgb(193, 184, 110);
@@ -101,6 +102,7 @@ h3 {
 }
 
 @media (min-width: 1280px) {
+
   h3 {
     transition: font-size 0.2s ease-in-out;
     font-size: var(--font-size-xl);
