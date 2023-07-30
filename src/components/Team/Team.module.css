@@ -36,3 +36,10 @@
     font-weight: 400;
     padding-bottom: 1rem;
 }
+
+@media (min-width: 1280px) {
+    .content h2 {
+        font-size: var(--font-size-xxl);
+        transition: all .3s ease-in-out;
+    }
+}

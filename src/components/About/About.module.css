@@ -3,10 +3,12 @@
     padding: 2rem;
     color: white;
     padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper {
-    max-width: 1280px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +34,7 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 5rem;
+        max-width: 1280px;
     }
 
     .about-img {
