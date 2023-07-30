@@ -72,10 +72,15 @@ extra 2. ensure 100% height on html and body
 html, body {
   height: 100%;
 }
-*/
 /***** end reset *********/
 
+html {
+  font-family: var(--font-pt-serif), serif;
+}
 
+h2, h3 {
+  font-family: var(--font-montserrat), sans-serif;
+}
 
 p {
   transition: font-size 0.2s ease-in-out;

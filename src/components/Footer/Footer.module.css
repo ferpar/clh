@@ -1,7 +1,6 @@
 .site-footer {
   background-color: hsl(52.5deg 44.44% 89.41%);
   display: flex;
-  font-family: serif;
   justify-content: flex-end;
   align-items: center;
   border-top: 1px solid hsl(260deg 50% 50% / 0.1);
