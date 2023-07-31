@@ -61,6 +61,6 @@
 
 @media(min-width: 1280px) {
   .courses {
-    max-width: 90%;
+    max-width: min(90%, calc(1300/16 * 1rem));
   }
 }
