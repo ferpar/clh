@@ -1,34 +1,38 @@
 .triptic {
-    background-color: black;
-    color: white;
-    padding: 60px 20px;
+  background-color: black;
+  color: white;
+  padding: 60px 20px;
 }
 
 .triptic article {
-    padding: 1rem 0;
-    text-align: left;
-    border-bottom: 1px solid white;
-    display: flex;
-    flex-direction: column;
+  padding: 1rem 0;
+  text-align: left;
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
 }
 
 .triptic div {
-    padding: 1rem 0;
+  padding: 1rem 0;
+}
+
+.img-wrapper {
+  padding: 1rem 0 2rem;
 }
 
 .triptic img {
-    padding: 1rem 0 2rem;
-    max-width: 160px;
+  max-width: 160px;
+  border-radius: 5px;
 }
 
 .triptic article:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 @media (min-width: 1280px) {
-    .triptic article {
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 2rem;
-    }
+  .triptic article {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+  }
 }

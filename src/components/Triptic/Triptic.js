@@ -6,7 +6,7 @@ function Triptic() {
     <section className={styles["triptic"]}>
       <div className="max-width-wrapper">
         <article>
-          <img src="/images/erudite.webp" alt="Erudite" />
+          <div className={styles["img-wrapper"]}><img src="/images/erudite.webp" alt="Erudite" /></div>
           <div>
             <p>
               <strong>{getString("OUR_NAME")}</strong>
@@ -17,7 +17,7 @@ function Triptic() {
           </div>
         </article>
         <article>
-          <img src="/images/magniglass.webp" alt="Project" />
+          <div className={styles["img-wrapper"]}><img src="/images/magniglass.webp" alt="Project" /></div>
           <div>
             <p>
               <strong>{getString("OUR_PROJECT")}</strong>
@@ -26,7 +26,7 @@ function Triptic() {
           </div>
         </article>
         <article>
-          <img src="/images/auschwitz.webp" alt="Project" />
+          <div className={styles["img-wrapper"]}><img src="/images/auschwitz.webp" alt="Project" /></div>
           <div>
             <p>
               <strong>{getString("OUR_MOTIVATION")}</strong>
