@@ -32,7 +32,6 @@ function Header() {
   };
 
   const handlePathChange = (newURL) => {
-    console.log("newURL", newURL)
     setCurrentPath(newURL);
   };
 
