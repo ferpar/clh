@@ -8,10 +8,10 @@ export default function Team() {
            <div className={styles["container"]}> 
                 {members.map((member, index) => (
                     <div className={styles["card"]} key={index}>
-                        <div className={styles["card__img"]}>
+                        <div className={styles["card-img"]}>
                             <img src={member.img} alt={member.name} />
                         </div>
-                        <div className={styles["card__info"]}>
+                        <div className={styles["card-info"]}>
                             <h3>{member.name} {member.surname}</h3>
                             <h4>{member.role1} {member.role2}</h4>
                             <p>{member.tagline}</p>

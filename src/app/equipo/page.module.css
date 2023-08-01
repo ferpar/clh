@@ -20,14 +20,20 @@
 }
 
 .card {
+    border-radius: 20px;
     max-width: 500px;
     flex: 1 1  300px;
+    background-color: hsl(53deg 40% 26% / 0.765);
+    overflow: hidden;
 }
 
 .card img {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 5px 5px 0 0;
     object-fit: cover;
+}
+
+.card-info {
+    padding: calc(30/16 * 1rem);
 }
 
