@@ -1,0 +1,33 @@
+.title {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: calc(48/16 * 1rem);
+}
+
+.team {
+    color: white;
+    padding-top: calc(169/16 * 1rem);
+    padding-bottom: calc(80/16 * 1rem);
+    background-color: hsl(53deg 40% 36% / 0.765);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(30/16 * 1rem);
+}
+
+.card {
+    max-width: 500px;
+    flex: 1 1  300px;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+

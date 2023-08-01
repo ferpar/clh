@@ -35,4 +35,9 @@
     align-items: flex-start;
     gap: 2rem;
   }
+  
+  .article-heading {
+    /* to align the text with the image */
+    margin-top: -9px;
+  }
 }

@@ -8,7 +8,7 @@ function Triptic() {
         <article>
           <div className={styles["img-wrapper"]}><img src="/images/erudite.webp" alt="Erudite" /></div>
           <div>
-            <p>
+            <p className={styles["article-heading"]}>
               <strong>{getString("OUR_NAME")}</strong>
             </p>
             <p>{getString("OUR_NAME_DESC1")}</p>
@@ -19,7 +19,7 @@ function Triptic() {
         <article>
           <div className={styles["img-wrapper"]}><img src="/images/magniglass.webp" alt="Project" /></div>
           <div>
-            <p>
+            <p className={styles["article-heading"]}>
               <strong>{getString("OUR_PROJECT")}</strong>
             </p>
             <p>{getString("OUR_PROJECT_DESC")}</p>
@@ -28,7 +28,7 @@ function Triptic() {
         <article>
           <div className={styles["img-wrapper"]}><img src="/images/auschwitz.webp" alt="Project" /></div>
           <div>
-            <p>
+            <p className={styles["article-heading"]}>
               <strong>{getString("OUR_MOTIVATION")}</strong>
             </p>
             <p>{getString("OUR_MOTIVATION_DESC1")}</p>
