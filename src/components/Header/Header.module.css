@@ -13,6 +13,15 @@
   transition: all 0.3s ease-in-out;
 }
 
+.wrapper.dark-theme {
+  color: black;
+}
+
+.wrapper.dark-theme.scrolled {
+  transition: color 0s ease-in-out;
+  color: white;
+} 
+
 .site-header nav {
   overflow: auto;
   padding: 24px;
@@ -35,13 +44,30 @@
   transition: all ease-in-out 0.4s;
 }
 
+.wrapper.dark-theme .header-nav-link:hover {
+  border-bottom: 2px solid black;
+}
+
+.wrapper.dark-theme.scrolled .header-nav-link:hover {
+  border-bottom: 2px solid white;
+}
+
 .header-nav-link.active {
+  border-bottom: 2px solid white;
+}
+
+.wrapper.dark-theme .header-nav-link.active {
+  border-bottom: 2px solid black;
+}
+
+.wrapper.dark-theme.scrolled .header-nav-link.active {
   border-bottom: 2px solid white;
 }
 
 .scrolled {
   transition: all 0.3s ease-in-out;
   background-color: hsl(53deg 40% 20% / 0.765);
+  color: white;
 }
 
 .logo {

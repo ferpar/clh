@@ -8,17 +8,17 @@ const headerLinks = [
   {
     name: "HOME",
     path: "/",
-    navTheme: "light",
+    darkTheme: false,
   },
   {
     name: "COURSES",
     path: "/cursos",
-    navTheme: "dark",
+    darkTheme: true,
   },
   {
     name: "TEAM",
     path: "/equipo",
-    navTheme: "light",
+    darkTheme: false,
   },
 ]
 
@@ -52,10 +52,14 @@ function Header({ path }) {
   // consolidating the path to be used in the header
   // when rendering on the server, use the path from the request headers 
   const actualPath = currentPath ? currentPath : path;
+  console.log(actualPath);
+  const darkTheme = headerLinks.find((link) => link.path === actualPath)?.darkTheme;
 
+  console.log(darkTheme)
   return (
-    <header className={`${styles["site-header"]}`}>
-      <div className={`${styles["wrapper"]} ${scrolled && styles["scrolled"]}`}>
+      <div className={`${styles["wrapper"]} ` 
+      + `${darkTheme ? styles["dark-theme"] : ''} `
+      + `${scrolled ? styles["scrolled"] : ''}`}>
         <a>
           <img
             src="/images/logo.webp"
@@ -82,7 +86,6 @@ function Header({ path }) {
           </ul>
         </nav>
       </div>
-    </header>
   );
 }
 
