@@ -19,7 +19,7 @@ const headerLinks = [
   },
 ]
 
-function Header() {
+function Header({ path }) {
   const [scrolled, setScrolled] = React.useState(null);
   const [currentPath, setCurrentPath] = React.useState(null);
 
@@ -46,6 +46,8 @@ function Header() {
     setCurrentPath(window.location.pathname);
   }, []);
 
+  const actualPath = currentPath ? currentPath : path;
+
   return (
     <header className={`${styles["site-header"]}`}>
       <div className={`${styles["wrapper"]} ${scrolled && styles["scrolled"]}`}>
@@ -64,7 +66,7 @@ function Header() {
               <li
                 key={link.name}
                 className={`${styles["header-nav-link"]} ${
-                  currentPath === link.path ? styles["active"] : ""
+                  actualPath === link.path ? styles["active"] : ""
                 }`}
               >
                 <Link href={link.path} onClick={() => handlePathChange(link.path)}>
