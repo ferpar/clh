@@ -14,10 +14,12 @@
 }
 
 .wrapper.dark-theme {
+  background-color: hsl(0 50% 92% / 0.7);
   color: black;
 }
 
 .wrapper.dark-theme.scrolled {
+  background-color: hsl(53deg 40% 20% / 0.765);
   transition: color 0s ease-in-out;
   color: white;
 } 
@@ -79,4 +81,10 @@
 .logo-scrolled {
   transition: all 0.3s ease-in-out;
   width: 60px;
+}
+
+@media (min-width: 800px) {
+  .wrapper.dark-theme {
+    background-color: transparent;
+  }
 }
