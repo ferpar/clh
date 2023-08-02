@@ -8,14 +8,17 @@ const headerLinks = [
   {
     name: "HOME",
     path: "/",
+    navTheme: "light",
   },
   {
     name: "COURSES",
     path: "/cursos",
+    navTheme: "dark",
   },
   {
     name: "TEAM",
     path: "/equipo",
+    navTheme: "light",
   },
 ]
 
@@ -46,6 +49,8 @@ function Header({ path }) {
     setCurrentPath(window.location.pathname);
   }, []);
 
+  // consolidating the path to be used in the header
+  // when rendering on the server, use the path from the request headers 
   const actualPath = currentPath ? currentPath : path;
 
   return (
