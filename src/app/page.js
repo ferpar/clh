@@ -4,7 +4,6 @@ import { getString } from "../helpers/i18n";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Highlight from "@/components/Highlight";
-import Activities from "@/components/Activities";
 import Triptic from "@/components/Triptic/Triptic";
 import Team from "@/components/Team";
 
@@ -19,7 +18,6 @@ export default function Home() {
       <Hero />
       <About />
       <Highlight />
-      <Activities />
       <Triptic />
       <Team />
     </main>
