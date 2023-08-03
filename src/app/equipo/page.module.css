@@ -38,6 +38,6 @@
     padding: calc(30/16 * 1rem);
 }
 
-.card-info > h4 {
-    padding-bottom: 1rem;
+.card-info > hr {
+    margin: calc(6/16 * 1rem) 0 calc(16/16 * 1rem);
 }

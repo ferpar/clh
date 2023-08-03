@@ -14,6 +14,7 @@ export default function Team() {
                         <div className={styles["card-info"]}>
                             <h3>{member.name} {member.surname}</h3>
                             <h4>{member.role1} {member.role2}</h4>
+                            <hr/>
                             <p>{member.tagline}</p>
                             {/* <p>{member.bio}</p> */}
                         </div>
