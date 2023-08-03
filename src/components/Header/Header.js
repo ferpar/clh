@@ -60,7 +60,7 @@ function Header({ path }) {
       <div className={`${styles["wrapper"]} ` 
       + `${darkTheme ? styles["dark-theme"] : ''} `
       + `${scrolled ? styles["scrolled"] : ''}`}>
-        <a>
+        <a href="/">
           <img
             src="/images/logo.webp"
             alt="CLH"
