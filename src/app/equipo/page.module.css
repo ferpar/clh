@@ -13,8 +13,9 @@
 
 .container {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: min(80%, 1200px);
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: calc(30/16 * 1rem);
 }
@@ -37,3 +38,6 @@
     padding: calc(30/16 * 1rem);
 }
 
+.card-info > h4 {
+    padding-bottom: 1rem;
+}
