@@ -66,6 +66,7 @@ function Header({ path }) {
         actualPath={actualPath}
         handlePathChange={handlePathChange}
         isOpen={isOpen}
+        onClick={() => setIsOpen(false)}
       />
     </>
   );
