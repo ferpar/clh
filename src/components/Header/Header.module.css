@@ -22,13 +22,14 @@
   background-color: hsl(53deg 40% 20% / 0.765);
   transition: color 0s ease-in-out;
   color: white;
-} 
+}
 
 .site-header nav {
   overflow: auto;
   padding: 24px;
   padding-left: 0px;
 }
+
 .header-nav-links {
   display: flex;
   gap: 32px;
@@ -36,6 +37,7 @@
   font-weight: 500;
   padding-left: 0px;
 }
+
 .header-nav-link {
   list-style: none;
   text-decoration: none;
@@ -85,8 +87,16 @@
   width: 60px;
 }
 
+.top-nav {
+  display: none;
+}
+
 @media (min-width: 800px) {
   .wrapper.dark-theme {
     background-color: transparent;
+  }
+
+  .top-nav {
+    display: revert;
   }
 }
