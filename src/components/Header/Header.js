@@ -52,10 +52,8 @@ function Header({ path }) {
   // consolidating the path to be used in the header
   // when rendering on the server, use the path from the request headers 
   const actualPath = currentPath ? currentPath : path;
-  console.log(actualPath);
   const darkTheme = headerLinks.find((link) => link.path === actualPath)?.darkTheme;
 
-  console.log(darkTheme)
   return (
       <div className={`${styles["wrapper"]} ` 
       + `${darkTheme ? styles["dark-theme"] : ''} `
