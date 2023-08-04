@@ -22,7 +22,7 @@
 
 .card {
     border-radius: 20px;
-    max-width: 500px;
+    max-width: 400px;
     flex: 1 1  300px;
     background-color: hsl(53deg 40% 26% / 0.765);
     overflow: hidden;

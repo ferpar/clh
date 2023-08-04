@@ -7,6 +7,7 @@ function FadeIn({ children, ...delegated}) {
     const [opacity, setOpacity] = React.useState(1) // ratio between 0 and 1
     const domRef = React.useRef()
     const handleScroll = () => {
+        if (!domRef.current) return
         const { top } = domRef.current.getBoundingClientRect()
         const windowHeight = window.innerHeight
         // proportion of the domRef that is visible

@@ -27,12 +27,14 @@
 .site-header nav {
   overflow: auto;
   padding: 24px;
+  padding-left: 0px;
 }
 .header-nav-links {
   display: flex;
   gap: 32px;
   font-size: 1.25rem;
   font-weight: 500;
+  padding-left: 0px;
 }
 .header-nav-link {
   list-style: none;
