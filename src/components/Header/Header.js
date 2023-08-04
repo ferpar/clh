@@ -55,7 +55,7 @@ function Header({ path }) {
             src="/images/logo.webp"
             alt="CLH"
             className={`${styles["logo"]} ${
-              scrolled && styles["logo-scrolled"]
+              (scrolled && !isOpen) && styles["logo-scrolled"]
             }`}
           />
         </a>

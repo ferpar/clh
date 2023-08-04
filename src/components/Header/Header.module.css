@@ -128,7 +128,6 @@
   width: 60px;
 }
 
-
 @media (min-width: 800px) {
   .wrapper.dark-theme {
     background-color: transparent;
