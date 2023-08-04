@@ -43,6 +43,10 @@
     transform: translateY(50%) rotate(-45deg);
 }
 
+.hamburger.dark .line{
+    background-color: black;
+}
+
 @media (min-width: 800px) {
     .hide {
         display: none;

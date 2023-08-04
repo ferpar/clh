@@ -4,11 +4,12 @@ import styles from "./Header.module.css";
 import headerLinks from "./headerLinks";
 import TopNav from "./TopNav";
 import Hamburger from "../Hamburger";
+import SideNav from "./SideNav";
 
 function Header({ path }) {
   const [scrolled, setScrolled] = React.useState(null);
   const [currentPath, setCurrentPath] = React.useState(null);
-  const [isOpen, setIsOpen] = React.useState(false)
+  const [isOpen, setIsOpen] = React.useState(false);
 
   const checkScroll = () => {
     if (window.scrollY > 0) {
@@ -41,23 +42,32 @@ function Header({ path }) {
   )?.darkTheme;
 
   return (
-    <div
-      className={
-        `${styles["wrapper"]} ` +
-        `${darkTheme ? styles["dark-theme"] : ""} ` +
-        `${scrolled ? styles["scrolled"] : ""}`
-      }
-    >
-      <a href="/">
-        <img
-          src="/images/logo.webp"
-          alt="CLH"
-          className={`${styles["logo"]} ${scrolled && styles["logo-scrolled"]}`}
-        />
-      </a>
-      <TopNav actualPath={actualPath} handlePathChange={handlePathChange} />
-      <Hamburger hide={true} isOpen={isOpen} setIsOpen={setIsOpen}/>
-    </div>
+    <>
+      <div
+        className={
+          `${styles["wrapper"]} ` +
+          `${darkTheme ? styles["dark-theme"] : ""} ` +
+          `${(scrolled || isOpen) ? styles["scrolled"] : ""}`
+        }
+      >
+        <a href="/">
+          <img
+            src="/images/logo.webp"
+            alt="CLH"
+            className={`${styles["logo"]} ${
+              scrolled && styles["logo-scrolled"]
+            }`}
+          />
+        </a>
+        <TopNav actualPath={actualPath} handlePathChange={handlePathChange} />
+        <Hamburger darkTheme={darkTheme && !scrolled} hide={true} isOpen={isOpen} setIsOpen={setIsOpen} />
+      </div>
+      <SideNav
+        actualPath={actualPath}
+        handlePathChange={handlePathChange}
+        isOpen={isOpen}
+      />
+    </>
   );
 }
 
