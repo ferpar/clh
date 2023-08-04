@@ -1,25 +1,3 @@
-.title {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: calc(48/16 * 1rem);
-}
-
-.team {
-    color: white;
-    padding-top: calc(169/16 * 1rem);
-    padding-bottom: calc(80/16 * 1rem);
-    background-color: hsl(53deg 40% 36% / 0.765);
-}
-
-.container {
-    margin: 0 auto;
-    max-width: min(80%, 1200px);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: calc(30/16 * 1rem);
-}
-
 .card {
     position: relative;
     border-radius: 20px;
@@ -53,4 +31,9 @@
     width: 100%;
     height: 100%;
     overflow: auto;
+    opacity: 0;
+}
+
+.see-more {
+    opacity: 1;
 }
