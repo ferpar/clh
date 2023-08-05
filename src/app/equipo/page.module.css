@@ -1,7 +1,11 @@
 .title {
     text-align: center;
     margin: 0 auto;
-    padding-bottom: calc(48/16 * 1rem);
+}
+
+.hint {
+    text-align: center;
+    padding-bottom: calc(36/16 * 1rem);
 }
 
 .team {
