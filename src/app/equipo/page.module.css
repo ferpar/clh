@@ -5,6 +5,7 @@
 }
 
 .team {
+    isolation: isolate;
     color: white;
     padding-top: calc(169/16 * 1rem);
     padding-bottom: calc(80/16 * 1rem);
@@ -45,7 +46,6 @@
 
 .card-bio {
     background-color: hsl(53deg 40% 6% / 0.85);
-    z-index: 2;
     padding: 2rem;
     position: absolute;
     top: 0;
