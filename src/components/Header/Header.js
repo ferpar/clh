@@ -37,8 +37,7 @@ function Header({ path }) {
   // consolidating the path to be used in the header
   // when rendering on the server, use the path from the request headers
   const actualPath = currentPath ? currentPath : path;
-  const pathInList = headerLinks.find((link) => link.path === actualPath);
-  const darkTheme = !pathInList ? true : headerLinks.find(
+  const darkTheme = headerLinks.find(
     (link) => link.path === actualPath
   )?.darkTheme;
 

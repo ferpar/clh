@@ -51,7 +51,35 @@
     "LEGAL_HEADING_6": "Uso de Cookies",
     "LEGAL_P6": "El Sitio Web utiliza cookies propias y de terceros para mejorar la experiencia del Usuario y ofrecerle servicios personalizados. Al navegar por el Sitio Web, el Usuario acepta el uso de cookies de acuerdo con nuestra Política de Cookies.",
     "LEGAL_HEADING_7": "Legislación y Jurisdicción aplicable",
-    "LEGAL_P7": "Este aviso legal se regirá e interpretará de acuerdo con la legislación española, y para cualquier controversia que pudiera surgir en relación con el mismo, las partes se someten expresamente a la jurisdicción de los tribunales competentes de [ciudad o región en España]."
+    "LEGAL_P7": "Este aviso legal se regirá e interpretará de acuerdo con la legislación española, y para cualquier controversia que pudiera surgir en relación con el mismo, las partes se someten expresamente a la jurisdicción de los tribunales competentes de [ciudad o región en España].",
+    "PRIVACY_TITLE": "Política de privacidad",
+    "PRIVACY_HEADING_1": "Responsable del Tratamiento de Datos Personales",
+    "PRIVACY_P1": "El responsable del tratamiento de los datos personales recabados a través del sitio web 'Centro León Hebreo' es [Nombre de la entidad propietaria], con domicilio en [Dirección], inscrita en el Registro Nacional de Asociaciones con el número [Número de registro] y con número de identificación fiscal [Número de identificación fiscal].",
+    "PRIVACY_HEADING_2": "Datos Personales Recabados",
+    "PRIVACY_P2": "El Centro León Hebreo podrá recopilar y tratar los siguientes datos personales de los usuarios del sitio web:'Centro León Hebreo' es [Nombre de la entidad propietaria], con domicilio en [Dirección], inscrita en el Registro Nacional de Asociaciones con el número [Número de registro] y con número de identificación fiscal [Número de identificación fiscal].",
+    "PRIVACY_P2_LI1": "Información proporcionada voluntariamente por el usuario a través de formularios de contacto, suscripciones a boletines, participación en eventos o actividades, etc.",
+    "PRIVACY_P2_LI2": "Datos de identificación, como nombre, dirección de correo electrónico, número de teléfono, etc.",
+    "PRIVACY_P2_LI3": "Información sobre preferencias y actividades en el sitio web.",
+    "PRIVACY_HEADING_3": "Finalidad del Tratamiento",
+    "PRIVACY_P3": "Los datos personales recabados serán tratados con las siguientes finalidades:",
+    "PRIVACY_P3_LI1": "Gestionar y responder a las consultas, solicitudes o cualquier tipo de petición realizada por el usuario a través del sitio web.",
+    "PRIVACY_P3_LI2": "Enviar información sobre eventos, actividades, noticias y novedades relacionadas con el Centro León Hebreo, siempre que el usuario haya dado su consentimiento expreso para recibir comunicaciones de este tipo.",
+    "PRIVACY_P3_LI3": "Realizar análisis estadísticos y mejoras en el sitio web para ofrecer una experiencia de usuario más personalizada.",
+    "PRIVACY_HEADING_4": "Legitimación para el Tratamiento",
+    "PRIVACY_P4": "La base legal para el tratamiento de datos personales se fundamenta en el consentimiento otorgado por el usuario al aceptar esta Política de Privacidad y/o al proporcionar voluntariamente sus datos personales a través del sitio web.",
+    "PRIVACY_HEADING_5": "Conservación de los Datos",
+    "PRIVACY_P5": "Los datos personales proporcionados se conservarán durante el tiempo necesario para cumplir con las finalidades para las cuales fueron recopilados, y mientras el usuario no solicite su supresión.",
+    "PRIVACY_HEADING_6": "Comunicación de Datos a Terceros",
+    "PRIVACY_P6": "El Centro León Hebreo podrá compartir los datos personales con terceros proveedores de servicios que colaboren en el desarrollo y mantenimiento del sitio web. En ningún caso se cederán datos a terceros con fines comerciales sin previo consentimiento del usuario.",
+    "PRIVACY_HEADING_7": "Derechos del Usuario",
+    "PRIVACY_P7": "El usuario podrá ejercer los derechos de acceso, rectificación, cancelación y oposición de sus datos personales, así como revocar su consentimiento en cualquier momento, enviando una solicitud por escrito al correo electrónico [Correo electrónico de contacto].",
+    "PRIVACY_HEADING_8": "Uso de Cookies",
+    "PRIVACY_P8": "El sitio web utiliza cookies para mejorar la experiencia del usuario. Para obtener más información sobre cómo se utilizan las cookies, consulte nuestra Política de Cookies.",
+    "PRIVACY_HEADING_9": "Medidas de Seguridad",
+    "PRIVACY_P9": "El Centro León Hebreo adopta las medidas técnicas y organizativas necesarias para garantizar la seguridad y confidencialidad de los datos personales, evitando su alteración, pérdida, tratamiento o acceso no autorizado.",
+    "PRIVACY_HEADING_9": "Modificaciones a la Política de Privacidad",
+    "PRIVACY_P9": "El Centro León Hebreo se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. Cualquier cambio será debidamente notificado a los usuarios a través del sitio web."
+
 
     
 }
