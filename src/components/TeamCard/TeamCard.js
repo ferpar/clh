@@ -6,6 +6,8 @@ export default function TeamCard({ member }) {
   const [seeMore, setSeeMore] = React.useState(false);
   return (
     <div className={styles["card"]} onClick={() => setSeeMore(!seeMore)}>
+      <div>
+
       <div className={styles["card-img"]}>
         <img src={member.img} alt={member.name} />
       </div>
@@ -23,9 +25,13 @@ export default function TeamCard({ member }) {
         className={
           `${styles["card-bio"]} ` + `${seeMore ? styles["see-more"] : ""}`
         }
-      >
+        >
         <p>{member.bio}</p>
       </div>
+        </div>
+      <button className={styles["card-button"]}>
+        {seeMore ? "Ocultar" : "Saber más"}
+      </button>
     </div>
   );
 }
