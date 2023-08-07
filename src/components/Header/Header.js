@@ -19,6 +19,7 @@ function Header({ path }) {
     }
   };
 
+  // this is to detect change of url when using the top nav
   const handlePathChange = (newURL) => {
     setCurrentPath(newURL);
   };
@@ -32,6 +33,20 @@ function Header({ path }) {
 
   React.useEffect(() => {
     setCurrentPath(window.location.pathname);
+  }, []);
+
+  // this is to detect change of url when using the back button
+  const updatePath = () => {
+    setCurrentPath(window.location.pathname);
+  };
+
+  React.useEffect(() => {
+    // add event listener to detect change of url
+    window.addEventListener("popstate", updatePath);
+
+    return () => {
+      window.removeEventListener("popstate", updatePath);
+    }
   }, []);
 
   // consolidating the path to be used in the header
