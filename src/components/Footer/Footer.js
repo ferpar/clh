@@ -29,6 +29,13 @@ function Footer() {
 
   return (
     <footer className={styles["site-footer"]}>
+      <div className={styles["footer-contact"]}>
+        <h3>Contáctanos</h3>
+        <a href="mailto:centroleonhebreo@gmail.com">
+          centroleonhebreo@gmail.com
+        </a>
+        <a href="tel:+34696982192">+34 696 982 192 </a>
+      </div>
       <nav>
         <ul className={styles["footer-nav-links"]}>
           {footerLinks.map((link) => (
