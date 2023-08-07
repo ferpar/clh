@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { NavContext } from "../NavContext";
 import styles from "./Header.module.css";
 import headerLinks from "./headerLinks";
 import TopNav from "./TopNav";
@@ -8,8 +9,9 @@ import SideNav from "./SideNav";
 
 function Header({ path }) {
   const [scrolled, setScrolled] = React.useState(null);
-  const [currentPath, setCurrentPath] = React.useState(null);
   const [isOpen, setIsOpen] = React.useState(false);
+
+  const { currentPath, setCurrentPath } = React.useContext(NavContext);
 
   const checkScroll = () => {
     if (window.scrollY > 0) {
@@ -19,10 +21,11 @@ function Header({ path }) {
     }
   };
 
-  // this is to detect change of url when using the top nav
+  // this is to detect change of url when using the top/side nav Links
   const handlePathChange = (newURL) => {
     setCurrentPath(newURL);
   };
+
 
   React.useEffect(() => {
     window.addEventListener("scroll", checkScroll);
@@ -31,30 +34,20 @@ function Header({ path }) {
     };
   }, []);
 
-  React.useEffect(() => {
-    setCurrentPath(window.location.pathname);
-  }, []);
-
-  // this is to detect change of url when using the back button
-  const updatePath = () => {
-    setCurrentPath(window.location.pathname);
-  };
-
-  React.useEffect(() => {
-    // add event listener to detect change of url
-    window.addEventListener("popstate", updatePath);
-
-    return () => {
-      window.removeEventListener("popstate", updatePath);
-    }
-  }, []);
 
   // consolidating the path to be used in the header
   // when rendering on the server, use the path from the request headers
   const actualPath = currentPath ? currentPath : path;
-  const darkTheme = headerLinks.find(
+
+  const externalPage = headerLinks.find(
+    (link) => link.path === actualPath
+  ) ? false : true;
+
+  const darkTheme = externalPage ? true : headerLinks.find(
     (link) => link.path === actualPath
   )?.darkTheme;
+
+  console.log({ actualPath, currentPath, darkTheme, externalPage })
 
   return (
     <>
