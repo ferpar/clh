@@ -22,6 +22,10 @@
   color: black;
 }
 
+.wrapper.dark-theme.external-page {
+  background-color: transparent;
+}
+
 .wrapper.dark-theme.scrolled {
   background-color: hsl(53deg 40% 20% / 0.765);
   transition: color 0s ease-in-out;

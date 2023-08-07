@@ -14,10 +14,10 @@ const footerLinks = [
     name: "PRIVACY",
     path: "/politica-de-privacidad",
   },
-  {
-    name: "COOKIES",
-    path: "/configuracion-de-cookies",
-  },
+  // {
+  //   name: "COOKIES",
+  //   path: "/configuracion-de-cookies",
+  // },
 ];
 
 function Footer() {
