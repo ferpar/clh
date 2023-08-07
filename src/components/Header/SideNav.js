@@ -5,7 +5,10 @@ import headerLinks from "./headerLinks";
 
 export default function SideNav({ actualPath, handlePathChange, isOpen, onClick }) {
   return (
-    <nav className={styles["side-nav"]}
+    <nav className={
+      `${styles["side-nav"]} ` + 
+      `${isOpen ? styles["open-side-nav"] : ""}`
+    }
         onClick={() => onClick()}
     >
       <ul
