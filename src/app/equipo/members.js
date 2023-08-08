@@ -1,10 +1,13 @@
+import { getString } from '../../helpers/i18n'
+
+//TODO - Add bio into the translations file
 const members = [
     {
-        name: 'Pepa',
-        surname: 'Rull',
-        role1: 'Fundadora',
-        role2: 'Directora',
-        tagline: 'Todo comenzó con un descubrimiento y una pasión.',
+        name: getString("PEPA_NAME"),
+        surname: getString("PEPA_SURNAME"),
+        role1: getString("PEPA_ROLE1"),
+        role2: getString("PEPA_ROLE2"),
+        tagline: getString("PEPA_TAGLINE"),
         bio: `Investigadora, sefardóloga  y consultora de formación, profesora, conferenciante e intérprete musical, especializada  en el estudio, investigación y difusión de la historia de los Hispanojudíos y Sefardíes en la Diáspora. Ha trabajado en la recuperación, y restitución de su memoria. 
         Profesora en la Universidad Texas Tech, (USA), sede Sevilla sobre el Legado Judeoespañol. Historia y música sefardí. Ha dirigido varias ediciones de cursos especializados en la materia en la Universidad Pablo de Olavide de Sevilla.
         Promotora cultural, ha realizado múltiples actividades culturales y educativas a nivel nacional e internacional sobre esta temática. 
@@ -14,11 +17,11 @@ const members = [
         img: '/images/koki.webp'
     },
     {
-        name: 'Milton',
-        surname: 'Cohen-Henríquez',
-        role1: 'Consejero',
-        role2: 'Co-Fundador',
-        tagline: 'Siempre dispuesto en pro de los sefardíes...',
+        name: getString("MILTON_NAME"),
+        surname: getString("MILTON_SURNAME"),
+        role1: getString("MILTON_ROLE1"),
+        role2: getString("MILTON_ROLE2"),
+        tagline: getString("MILTON_TAGLINE"),
         bio: `Sefardí de origen en Sevilla,  Panamá, y Curaçao.
         Experto en Historia, en especial la de Sefarad.
         Escritor
@@ -32,11 +35,11 @@ const members = [
         img: '/images/milton.webp'
     },
     {
-        name: 'Margalit',
-        surname: 'Matitiahu',
-        role1: 'Docente',
-        role2: '',
-        tagline: 'Con Sefarad en el alma, desde tiempo ancestral',
+        name: getString("MARGALIT_NAME"),
+        surname: getString("MARGALIT_SURNAME"),
+        role1: getString("MARGALIT_ROLE1"),
+        role2: getString("MARGALIT_ROLE2"),
+        tagline: getString("MARGALIT_TAGLINE"),
         bio: `Sefardí, de familia de origen en León y Salónica e Israel.
         Nacida y residente  en Tel Aviv, Israel. 
         Estudió Literatura Hebrea y Filosofía en la Universidad Bar Ilan.  
@@ -54,11 +57,11 @@ const members = [
         img: '/images/margalit.webp'
     },
     {
-        name: 'Itzjak',
-        surname: 'Benabraham',
-        role1: 'Docente',
-        role2: '',
-        tagline: 'Nuestro sabio sefardólogo',
+        name: getString("ITZJAK_NAME"),
+        surname: getString("ITZJAK_SURNAME"),
+        role1: getString("ITZJAK_ROLE1"),
+        role2: getString("ITZJAK_ROLE2"),
+        tagline: getString("ITZJAK_TAGLINE"),
         bio: `Director del Centro de documentación  Moisés de León.
         Gran experto y conocedor de la historia y cultura de los hispanojudíos sefardíes.
         
@@ -68,21 +71,21 @@ const members = [
         img: '/images/itzjak.webp'
     },
     {
-        name: 'Carlos',
-        surname: 'Yebra López',
-        role1: 'Docente',
-        role2: '',
-        tagline: 'Caballero defensor del Ladino',
+        name: getString("CARLOS_NAME"),
+        surname: getString("CARLOS_SURNAME"),
+        role1: getString("CARLOS_ROLE1"),
+        role2: getString("CARLOS_ROLE2"),
+        tagline: getString("CARLOS_TAGLINE"),
         bio: `Doctor en Lengua y Literatura Española y Portuguesa por la Universidad de Nueva York, donde es profesor.
         Director ejecutivo de Ladino 21, proyecto creado para la difusión y continuidad del judeoespañol o ladino como lengua hablada y por tanto su preservación y enseñanza.`,
         img: '/images/carlos.webp'
     },
     {
-        name: 'Uriel',
-        surname: 'Macías',
-        role1: 'Docente',
-        role2: '',
-        tagline: '"Gran amante y conocedor  de los libros sobre temática judía, los cuales atesora',
+        name: getString("URIEL_NAME"),
+        surname: getString("URIEL_SURNAME"),
+        role1: getString("URIEL_ROLE1"),
+        role2: getString("URIEL_ROLE2"),
+        tagline: getString("URIEL_TAGLINE"),
         bio: `Prolífico escritor, editor y bibliógrafo, con una de las mayores bibliotecas privadas sobre libros de todo tipo en relación con el  judaísmo, la historia, cultura, en general y de forma especial sobre los judíos de Sefarad.
         Reside en Madrid. España. Sefarad.`,
         img: '/images/uriel.webp'
