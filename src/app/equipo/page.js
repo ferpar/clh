@@ -2,6 +2,11 @@ import members from './members.js';
 import styles from './page.module.css';
 import TeamCard from '../../components/TeamCard';
 
+export const metadata = {
+  title: "Equipo | Centro León Hebreo",
+  description: "Equipo del Centro León Hebreo",
+};
+
 export default function Team() {
     return (
         <section className={styles["team"]}>

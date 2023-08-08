@@ -1,6 +1,11 @@
 import { getString } from "../../helpers/i18n";
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "Política de Privacidad | Centro León Hebreo",
+  description: "Política de Privacidad del Centro León Hebreo",
+};
+
 export default function Advice() {
 
   return (
