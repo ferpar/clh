@@ -19,6 +19,7 @@ const ptSerif = PT_Serif({
 export const metadata = {
   title: "Centro León Hebreo",
   description: "Página web del Centro León Hebreo",
+  colorScheme: "light only",
 };
 
 export default function RootLayout({ children }) {
