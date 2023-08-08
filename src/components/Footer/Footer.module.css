@@ -47,6 +47,7 @@
 @media (min-width: 600px) {
   .footer-contact {
     border-bottom: none;
+    max-width: 300px;
   }
   .site-footer {
     flex-direction: row;

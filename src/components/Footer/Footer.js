@@ -35,6 +35,8 @@ function Footer() {
           centroleonhebreo@gmail.com
         </a>
         <a href="tel:+34696982192">+34 696 982 192 </a>
+        <a href="https://www.google.com/maps/place/Camino+de+las+Fuentezuelas,+n%C2%B01,+casa+7,+18190+Cenes+de+la+Vega,+Granada,+Spain
+" target="_blank" >{getString("ADDRESS")}</a>
       </div>
       <nav>
         <ul className={styles["footer-nav-links"]}>
