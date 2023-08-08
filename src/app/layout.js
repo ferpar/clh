@@ -3,6 +3,7 @@ import { Montserrat, Montserrat_Subrayada, PT_Serif } from "next/font/google";
 import NavProvider from "@/components/NavContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { getString } from '../helpers/i18n'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -17,9 +18,17 @@ const ptSerif = PT_Serif({
 });
 
 export const metadata = {
-  title: "Centro León Hebreo",
-  description: "Página web del Centro León Hebreo",
+  title: getString("TITLE"),
+  description: getString("DESCRIPTION"),
   colorScheme: "light only",
+  openGrap: {
+    title: getString("TITLE"),
+    description: getString("DESCRIPTION"),
+    url: 'https://centroleonhebreo.com/',
+    siteName: getString("TITLE"),
+    locale: 'es_ES',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
