@@ -39,9 +39,9 @@
     "PRACTICE_CARD_3": "¡Vive la experiencia de sentir la historia en los lugares de los que te hemos hablado!.",
     "LEGAL_TITLE": "Aviso legal",
     "LEGAL_HEADING_1": "Datos de Identificación",
-    "LEGAL_P1": "El presente aviso legal regula el uso del sitio web 'Centro León Hebreo' (en adelante, el 'Sitio Web'), propiedad de [Nombre de la entidad propietaria], con domicilio en [Dirección], inscrita en el Registro Nacional de Asociaciones con el número [Número de registro] y con número de identificación fiscal [Número de identificación fiscal]. Para cualquier consulta o contacto, puede hacerlo a través del correo electrónico [Correo electrónico de contacto].",
+    "LEGAL_P1": "El presente aviso legal regula el uso del sitio web 'Centro León Hebreo' (en adelante, el 'Sitio Web'), propiedad de Pepa Rull, con domicilio en Camino de las Fuentezuelas, n°1, casa 7, 18190 Cenes de la Vega (Granada) España y con número de identificación fiscal 28455847V. Para cualquier consulta o contacto, puede hacerlo a través del correo electrónico centroleonhebreo@gmail.com.",
     "LEGAL_HEADING_2": "Aceptación del Usuario",
-    "LEGAL_P2": "El acceso y uso del Sitio Web atribuyen la condición de Usuario, y se entenderá que dicho acceso y uso implica la aceptación plena y sin reservas de todas las condiciones establecidas en este aviso legal. El Usuario se compromete a leer detenidamente este aviso legal cada vez que acceda al Sitio Web, ya que el mismo puede sufrir modificaciones.'Sitio Web'), propiedad de [Nombre de la entidad propietaria], con domicilio en [Dirección], inscrita en el Registro Nacional de Asociaciones con el número [Número de registro] y con número de identificación fiscal [Número de identificación fiscal]. Para cualquier consulta o contacto, puede hacerlo a través del correo electrónico [Correo electrónico de contacto].",
+    "LEGAL_P2": "El acceso y uso del Sitio Web atribuyen la condición de Usuario, y se entenderá que dicho acceso y uso implica la aceptación plena y sin reservas de todas las condiciones establecidas en este aviso legal. El Usuario se compromete a leer detenidamente este aviso legal cada vez que acceda al Sitio Web, ya que el mismo puede sufrir modificaciones.'Sitio Web', propiedad de Pepa Rull, con domicilio en Camino de las Fuentezuelas, n°1, casa 7, 18190 Cenes decla Vega (Granada) España con número de identificación fiscal 28455847V. Para cualquier consulta o contacto, puede hacerlo a través del correo electrónico centroleonhebreo@gmail.com.",
     "LEGAL_HEADING_3": "Propiedad Intelectual e Industrial",
     "LEGAL_P3": "Todos los contenidos, imágenes, textos, logotipos, marcas, diseños y demás elementos presentes en el Sitio Web son propiedad del Centro León Hebreo o de terceros que han autorizado su uso. Queda expresamente prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra forma de utilización, total o parcial, de dichos contenidos sin autorización expresa del titular de los derechos.",
     "LEGAL_HEADING_4": "Responsabilidad",
@@ -49,14 +49,14 @@
     "LEGAL_HEADING_5": "Protección de Datos Personales",
     "LEGAL_P5": "El Centro León Hebreo cumple con lo establecido en la normativa vigente en materia de protección de datos personales. Para obtener más información sobre cómo se tratan los datos personales, consulte nuestra Política de Privacidad.",
     "LEGAL_HEADING_6": "Uso de Cookies",
-    "LEGAL_P6": "El Sitio Web utiliza cookies propias y de terceros para mejorar la experiencia del Usuario y ofrecerle servicios personalizados. Al navegar por el Sitio Web, el Usuario acepta el uso de cookies de acuerdo con nuestra Política de Cookies.",
+    "LEGAL_P6": "El sitio web utiliza únicamente las cookies estrictamente necesarias",
     "LEGAL_HEADING_7": "Legislación y Jurisdicción aplicable",
-    "LEGAL_P7": "Este aviso legal se regirá e interpretará de acuerdo con la legislación española, y para cualquier controversia que pudiera surgir en relación con el mismo, las partes se someten expresamente a la jurisdicción de los tribunales competentes de [ciudad o región en España].",
+    "LEGAL_P7": "Este aviso legal se regirá e interpretará de acuerdo con la legislación española, y para cualquier controversia que pudiera surgir en relación con el mismo, las partes se someten expresamente a la jurisdicción de los tribunales competentes de Granada.",
     "PRIVACY_TITLE": "Política de privacidad",
     "PRIVACY_HEADING_1": "Responsable del Tratamiento de Datos Personales",
-    "PRIVACY_P1": "El responsable del tratamiento de los datos personales recabados a través del sitio web 'Centro León Hebreo' es [Nombre de la entidad propietaria], con domicilio en [Dirección], inscrita en el Registro Nacional de Asociaciones con el número [Número de registro] y con número de identificación fiscal [Número de identificación fiscal].",
+    "PRIVACY_P1": "El responsable del tratamiento de los datos personales recabados a través del sitio web 'Centro León Hebreo' es Pepa Rull, con domicilio en Camino de las Fuentezuelas, n°1, casa 7, 18190 Cenes decla Vega (Granada) España con número de identificación fiscal 28455847V.",
     "PRIVACY_HEADING_2": "Datos Personales Recabados",
-    "PRIVACY_P2": "El Centro León Hebreo podrá recopilar y tratar los siguientes datos personales de los usuarios del sitio web:'Centro León Hebreo' es [Nombre de la entidad propietaria], con domicilio en [Dirección], inscrita en el Registro Nacional de Asociaciones con el número [Número de registro] y con número de identificación fiscal [Número de identificación fiscal].",
+    "PRIVACY_P2": "El Centro León Hebreo podrá recopilar y tratar los siguientes datos personales de los usuarios del sitio web:'Centro León Hebreo' es Pepa Rull, con domicilio en Camino de las Fuentezuelas, n°1, casa 7, 18190 Cenes decla Vega (Granada) España con número de identificación fiscal 28455847V.",
     "PRIVACY_P2_LI1": "Información proporcionada voluntariamente por el usuario a través de formularios de contacto, suscripciones a boletines, participación en eventos o actividades, etc.",
     "PRIVACY_P2_LI2": "Datos de identificación, como nombre, dirección de correo electrónico, número de teléfono, etc.",
     "PRIVACY_P2_LI3": "Información sobre preferencias y actividades en el sitio web.",
@@ -74,12 +74,9 @@
     "PRIVACY_HEADING_7": "Derechos del Usuario",
     "PRIVACY_P7": "El usuario podrá ejercer los derechos de acceso, rectificación, cancelación y oposición de sus datos personales, así como revocar su consentimiento en cualquier momento, enviando una solicitud por escrito al correo electrónico [Correo electrónico de contacto].",
     "PRIVACY_HEADING_8": "Uso de Cookies",
-    "PRIVACY_P8": "El sitio web utiliza cookies para mejorar la experiencia del usuario. Para obtener más información sobre cómo se utilizan las cookies, consulte nuestra Política de Cookies.",
+    "PRIVACY_P8": "El sitio web utiliza únicamente las cookies estrictamente necesarias.",
     "PRIVACY_HEADING_9": "Medidas de Seguridad",
     "PRIVACY_P9": "El Centro León Hebreo adopta las medidas técnicas y organizativas necesarias para garantizar la seguridad y confidencialidad de los datos personales, evitando su alteración, pérdida, tratamiento o acceso no autorizado.",
-    "PRIVACY_HEADING_9": "Modificaciones a la Política de Privacidad",
-    "PRIVACY_P9": "El Centro León Hebreo se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. Cualquier cambio será debidamente notificado a los usuarios a través del sitio web."
-
-
-    
+    "PRIVACY_HEADING_10": "Modificaciones a la Política de Privacidad",
+    "PRIVACY_P10": "El Centro León Hebreo se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. Cualquier cambio será debidamente notificado a los usuarios a través del sitio web."
 }
