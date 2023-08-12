@@ -7,7 +7,7 @@ function Highlight() {
     <section className={styles["highlight"]}>
       <div className={styles["wrapper"]}>
         <h3>{getString("LIGHTHOUSE")}</h3>
-        <FadeIn extend={3}>
+        <FadeIn extend={1.5}>
           <img src="/images/lighthouse.webp" alt="Lighthouse" />
         </FadeIn>
         <p>{getString("LIGHTHOUSE_DESCRIPTION1")}</p>
