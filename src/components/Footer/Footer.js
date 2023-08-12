@@ -35,7 +35,7 @@ function Footer() {
           centroleonhebreo@gmail.com
         </a>
         <div>
-          <span>Whatsapp or Phone</span>
+          <span>Whatsapp </span>
           <a href="tel:+34696982192">+34 696 982 192 </a>
         </div>
         <a
