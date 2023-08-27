@@ -1,6 +1,5 @@
 .highlighted {
   min-height: 100vh;
-  height: 100%;
   background-color: hsl(52.5deg 44.44% 89.41%);
   display: flex;
   flex-direction: column;

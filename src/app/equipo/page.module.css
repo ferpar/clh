@@ -5,6 +5,7 @@
 }
 
 .team {
+    flex: 1;
     isolation: isolate;
     color: white;
     padding-top: calc(169/16 * 1rem);
