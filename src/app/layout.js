@@ -21,7 +21,7 @@ export const metadata = {
   title: getString("TITLE"),
   description: getString("DESCRIPTION"),
   colorScheme: "light only",
-  openGrap: {
+  openGraph: {
     title: getString("TITLE"),
     description: getString("DESCRIPTION"),
     url: 'https://centroleonhebreo.com/',
